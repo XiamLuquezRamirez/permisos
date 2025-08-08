@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "npx mix",
+        "watch": "npx mix watch",
+        "watch-poll": "npx mix watch -- --watch-options-poll=1000",
+        "hot": "npx mix watch --hot",
+        "prod": "npm run production",
+        "production": "npx mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.27.1",
+        "@tailwindcss/vite": "^4.0.0",
+        "axios": "^1.8.2",
+        "concurrently": "^9.0.1",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^1.2.0",
+        "tailwindcss": "^4.0.0",
+        "vite": "^6.2.4"
+    },
+    "dependencies": {
+        "chart.js": "^4.5.0",
+        "react": "^19.1.0",
+        "react-chartjs-2": "^5.3.0",
+        "react-dom": "^19.1.0",
+        "react-icons": "^5.5.0",
+        "react-router-dom": "^7.6.2",
+        "sweetalert2": "^11.22.0"
+    }
+}
